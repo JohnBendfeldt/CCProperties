@@ -13,8 +13,7 @@ body {
 	width: 100%;
 	top: 0px !important;
 	left: 0px !important;
-	min-height: 100px;
-	height: 20%;
+	min-height: 15%;
 	position: absolute;
 }
 
@@ -42,15 +41,15 @@ section {
 }
 
 .loginCentral {
-	margin: 180px auto;
+	margin: 200px auto;
 }
 /* default login box */
 .loginBox {
-	float: left;
+	overflow: auto;
 }
 /* user registration box */
 .registerBox {
-	float: right;
+	overflow: auto;
 }
 	/* Establishes sticky footer */
 footer {
