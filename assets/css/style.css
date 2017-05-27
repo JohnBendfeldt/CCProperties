@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+/* font for header mainly */
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
 body {
 	background-image: url('../images/cheap_diagonal_fabric.png');
 	font-family: 'Raleway', sans-serif;
 }
-
+/* establishes top banner */
 .banner {
 	background-color: #374459;
-	border-bottom: 5px solid #EA735D;
+	border-bottom: 5px solid #93B06D;
 	width: 100%;
 	top: 0px !important;
 	left: 0px !important;
@@ -17,10 +19,48 @@ body {
 }
 
 h1 {
-	color: #3B9AD9;
+	font-family: 'Slabo 27px', serif;
+	color: #4198B6;
 	text-shadow:
 			-1px -1px 0 #EAE1D4,  
     		1px -1px 0 #EAE1D4,
     		-1px 1px 0 #EAE1D4,
      		1px 1px 0 #EAE1D4;
+    font-size: 58px;
+    font-weight: 900 !important;
+    text-align: center;
+}
+
+section {
+	max-width: 980px;
+	width: 100%;
+	border: 5px solid #93B06D;
+	background-color: #EAE1D4;
+	margin: 180px auto;
+	text-align: left;
+	padding: 5% 5%;
+}
+
+.loginCentral {
+	margin: 180px auto;
+}
+/* default login box */
+.loginBox {
+	float: left;
+}
+/* user registration box */
+.registerBox {
+	float: right;
+}
+	/* Establishes sticky footer */
+footer {
+	background-color: #374459;
+	opacity: 0.85;
+	text-align: center;
+	border-top: solid 6px #93B06D;
+	position: fixed;
+	width: 100%;
+	bottom: 0px !important;
+	left: 0px !important;
+	color: #EAE1D4;
 }

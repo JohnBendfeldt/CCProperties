@@ -4,14 +4,52 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CC Properties Resident Portal</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
+<body class="container">
 <div class="banner">
 	<h1>CC Properties Resident Portal</h1>
 </div>
-	<section class="loginBox">
-		
+	<section class="row loginCentral">
+		<form class="col-md-4 loginBox">
+			<h2>Resident Login</h2>
+			<label for="email-input">Email</label>
+			<br>
+				<input id="email-input" type="email" placeholder="johnsmith@gmail.com">
+			<br>
+			<label for="password-input">Password</label>
+			<br>
+				<input id="password-input" type="password">
+			<br>
+			<button id="login-btn" type="submit">Submit</button>
+		</form>
+
+		<form class="col-md-4 registerBox">
+			<h2>Create an Account</h2>
+			<label for="email-input">Email</label>
+			<br>
+				<input id="email-input" type="email" placeholder="johnsmith@gmail.com">
+			<br>
+			<label for="account-input">Renter Account Number</label>
+			<br>
+				<input type="account-input" type="number" placeholder="Renter Account Number">
+			<br>
+			<label for="password-input">Password</label>
+			<br>
+				<input id="password-input" type="password">
+			<br>
+			<label for="confirm-input">Confirm Password</label>
+			<br>
+				<input id="confirm-input" type="password">
+			<br>
+			<button id="register-btn" type="submit">Submit</button>
+		</form>
 	</section>
 </body>
+<footer>
+	<h3>Contact</h3>
+	<p>Call</p>
+	<p>Email</p>
+</footer>
 </html>
