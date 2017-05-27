@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+	background-image: url('../images/cheap_diagonal_fabric.png');
+	font-family: 'Raleway', sans-serif;
+}
+
+.banner {
+	background-color: #374459;
+	border-bottom: 5px solid #EA735D;
+	width: 100%;
+	top: 0px !important;
+	left: 0px !important;
+	min-height: 100px;
+	height: 20%;
+	position: absolute;
+}
+
+h1 {
+	color: #3B9AD9;
+	text-shadow:
+			-1px -1px 0 #EAE1D4,  
+    		1px -1px 0 #EAE1D4,
+    		-1px 1px 0 #EAE1D4,
+     		1px 1px 0 #EAE1D4;
+}
