@@ -54,7 +54,7 @@ section {
 	/* Establishes sticky footer */
 footer {
 	background-color: #374459;
-	opacity: 0.85;
+	opacity: 0.75;
 	text-align: center;
 	border-top: solid 6px #93B06D;
 	position: fixed;
