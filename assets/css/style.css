@@ -41,12 +41,13 @@ section {
 /* default login box */
 .loginBox {
 	overflow: auto;
+	margin-right: 20%;
 }
 /* user registration box */
 .registerBox {
 	overflow: auto;
 }
-	/* Establishes sticky footer */
+/* Establishes sticky footer */
 footer {
 	background-color: #374459;
 	opacity: 0.75;
@@ -57,4 +58,20 @@ footer {
 	bottom: 0px !important;
 	left: 0px !important;
 	color: #EAE1D4;
+}
+
+input {
+	width: 100%;
+}
+/* pictures in the carousel with dimensions */
+.item,
+.carousel {
+	max-width: 360px;
+	width: 100%;
+	height: 200px;
+}
+/* carousel for listing dimesnions and behaviors */
+.carousel {
+	height: 200px;
+	border: 1px solid #374459;
 }

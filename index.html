@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/4.0.0/firebase.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<style type="text/css" href="assets/javascript/ccproperties.js"></style>
 </head>
 <body class="container">
@@ -15,7 +16,7 @@
 	<h1>CC Properties Resident Portal</h1>
 </div>
 	<section class="row loginCentral">
-		<form class="col-md-6 loginBox">
+		<form class="col-md-4 loginBox">
 			<h2>Resident Login</h2>
 			<label for="email-input">Email</label>
 			<br>
@@ -25,7 +26,8 @@
 			<br>
 				<input id="password-input" type="password">
 			<br>
-			<button id="login-btn" type="submit">Submit</button>
+			<button id="login-btn">Submit</button>
+			<a href="listings.html">Go to Listings</a>
 		</form>
 
 		<form class="col-md-4 registerBox">
@@ -46,7 +48,7 @@
 			<br>
 				<input id="confirm-input" type="password">
 			<br>
-			<button id="register-btn" type="submit">Submit</button>
+			<button id="register-btn">Submit</button>
 		</form>
 	</section>
 </body>
