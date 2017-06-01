@@ -17,6 +17,16 @@ body {
 	position: absolute;
 }
 
+/* Navbar parameters established */
+nav {
+	float: right;
+	color: #EAE1D4;
+}
+
+a {
+	color: #EAE1D4;
+}
+
 h1 {
 	font-family: 'Slabo 27px', serif;
 	color: #EAE1D4;
